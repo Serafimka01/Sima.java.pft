@@ -10,7 +10,6 @@ public class Collections {
 
         for (String l : languages) {
             System.out.println("Я хочу выучить " + l);
-
         }
     }
 }
