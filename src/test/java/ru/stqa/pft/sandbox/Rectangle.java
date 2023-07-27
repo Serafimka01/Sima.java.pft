@@ -11,7 +11,7 @@ public class Rectangle {
     }
 
 
-    public double asd() {
+    public double area() {
         return this.a * this.b;
     }
 
