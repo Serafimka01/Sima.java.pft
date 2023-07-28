@@ -29,7 +29,7 @@ public class GroupCreationTest {
   }
 
   @Test
-  public void testGroupCreation () throws Exception {
+  public void testGroupCreation () {
 
     gotoGroupPage();
     initGroupCreation();
@@ -37,6 +37,7 @@ public class GroupCreationTest {
     submitGroupCreation();
     returnToGroupPage();
     wd.findElement(By.linkText("Logout")).click();
+
   }
 
   private void returnToGroupPage() {
