@@ -1,2 +1,3 @@
 rootProject.name = 'lox'
+include 'addressbook-web-tests'
 
