@@ -3,7 +3,7 @@
 <suite name = "GroupCreationTests">
 <test name = "ContactCreationTests">
     <classes>
-        <class name = "ru.stqa.pft.addressbook.ContactCreationTests"/>
+        <class name = "ru.stqa.pft.addressbook.tests.ContactCreationTests"/>
     </classes>
 </test>
 </suite>
