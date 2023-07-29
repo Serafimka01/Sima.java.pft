@@ -31,7 +31,7 @@ public class ContactCreationTests {
   }
 
   @Test
-  public void testContactCreationTests() throws Exception {
+  public void testContactCreationTests() {
 
     initContactCreation();
     fillContactForm(new ContactData("asd", "asd", "123", "123456"));
