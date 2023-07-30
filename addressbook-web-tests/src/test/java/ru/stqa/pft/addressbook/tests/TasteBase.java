@@ -6,7 +6,6 @@ import ru.stqa.pft.addressbook.appmanager.ApplicationManager;
 
 public class TasteBase {
 
-
     protected final ApplicationManager app = new ApplicationManager();
 
     @BeforeMethod(alwaysRun = true)
@@ -18,5 +17,4 @@ public class TasteBase {
     public void tearDown() {
         app.stop();
     }
-
 }
